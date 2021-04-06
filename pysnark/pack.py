@@ -4,6 +4,7 @@ random.seed()
 
 from pysnark.runtime import LinComb
 
+# pysnark methods?
 class PackBool:
     def random(self): return random.randrange(0,2)
     def bitlen(self): return 1
